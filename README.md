@@ -7,7 +7,7 @@
 - React
 - Node.js
 - Gemini AI
-- Cursor (To Build the App)
+- Cursor (To Build it using Vibe Coding 💫)
 
 ## Running The Application 🧑🏻‍💻
 
