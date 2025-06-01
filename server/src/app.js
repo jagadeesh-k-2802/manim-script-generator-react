@@ -4,7 +4,6 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import fs from 'fs/promises';
 import generationRoutes from './routes/generationRoutes.js';
-import healthRoutes from './routes/healthRoutes.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const VIDEOS_DIR = path.join(__dirname, '../public/videos');
@@ -43,6 +42,5 @@ app.use('/videos', async (req, res, next) => {
 
 // Routes
 app.use('/api', generationRoutes);
-app.use('/api', healthRoutes);
 
-export { app, port }; 
+export { app, port };
