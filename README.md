@@ -5,6 +5,7 @@
 ## Technologies ⚙️
 
 - React
+- Shadcn UI
 - Node.js
 - Gemini AI
 - Cursor (To Build it using Vibe Coding 💫)
